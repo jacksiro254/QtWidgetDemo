@@ -1,61 +1,61 @@
-﻿#### 一、目录说明
-1. **可以选择打开QWidgetDemo.pro一次性编译所有的，也可以进入到目录下打开pro进行编译。**
-2. **如果发现有些子项目没有加载请打开QWidgetDemo.pro仔细看里面的注释。**
-3. **编译好的可执行文件在源码同级目录下的bin目录。**
-4. **亲测Qt4.6到Qt6.1所有版本，亲测win、linux、mac、uos等系统。**
+#### 1. Directory description
+1. **You can choose to open QWidgetDemo.pro to compile all at once, or you can enter the directory to open pro to compile. **
+2. **If you find that some sub-projects are not loaded, please open QWidgetDemo.pro and read the comments carefully. **
+3. **The compiled executable file is in the bin directory under the same level directory as the source code. **
+4. **Pro test all versions of Qt4.6 to Qt6.1, and test win, linux, mac, uos and other systems. **
 
-| 编号 | 文件夹 | 描述 |
+| Number | Folder | Description |
 | ------ | ------ | ------ |
-| 1 | lightbutton | 高亮按钮控件 |
-| 2 | movewidget | 通用控件移动类 |
-| 3 | flatui | 模仿flatui类 |
-| 4 | countcode | 代码统计组件 |
-| 5 | gifwidget | 屏幕录制控件 |
-| 6 | comtool | 串口调试助手 |
-| 7 | nettool | 网络调试助手 |
-| 8 | devicesizetable | 硬盘容量控件 |
-| 9 | styledemo | 高仿PS黑色+扁平白色+淡蓝色风格主题 |
-| 10 | navbutton | 导航按钮控件 |
-| 11 | videopanel | 视频监控画面分割demo |
-| 12 | framelesswidget | 通用无边框拖动拉伸类 |
-| 13 | ipaddress | IP地址输入控件 |
-| 14 | bgdemo | 无边框背景透明窗体 |
-| 15 | dbpage | 通用数据库翻页查询 |
-| 16 | pngtool | PNG图片警告去除工具 |
-| 17 | savelog | 日志重定向输出类 |
-| 18 | saveruntime | 运行时间记录类 |
-| 19 | colorwidget | 颜色拾取器 |
-| 20 | maskwidget | 遮罩层窗体 |
-| 21 | battery | 电池电量控件 |
-| 22 | lineeditnext | 文本框回车焦点下移 |
-| 23 | zhtopy | 汉字转拼音 |
-| 24 | qwtdemo | qwt的源码版本，无需插件，直接源码集成到你的项目即可 |
-| 25 | devicebutton | 设备按钮地图效果 |
-| 26 | mouseline | 鼠标定位十字线 |
-| 27 | emailtool | 邮件发送工具 |
-| 28 | ntpclient | NTP服务器时间同步 |
-| 29 | lunarcalendarwidget | 农历控件 |
-| 30 | videowidget | 通用视频控件 |
-| 31 | screenwidget | 屏幕截图控件 |
-| 32 | imageswitch | 图片开关控件 |
-| 33 | echartgauge | echart仪表盘含交互支持webkit及webengine |
-| 34 | ffmpegdemo | 视频流播放ffmpeg内核 |
-| 35 | vlcdemo | 视频流播放vlc内核 |
-| 36 | key | 秘钥生成器 |
-| 37 | live | 程序守护进程 |
-| 38 | designer | QtDesigner4源码 |
-| 39 | netserver | 网络中转服务器 |
-| 40 | mpvdemo | 视频流播放mpv内核 |
-| 41 | miniblink | miniblink示例 |
-| 42 | base64 | 图片文字base64互换 |
-| 43 | smoothcurve | 平滑曲线 |
+| 1 | lightbutton | Highlight button control |
+| 2 | movewidget | General control mobile class |
+| 3 | flatui | Imitate the flatui class |
+| 4 | countcode | Code Statistics Component |
+| 5 | gifwidget | Screen Recording Control |
+| 6 | comtool | Serial debugging assistant |
+| 7 | nettool | Network debugging assistant |
+| 8 | devicesizetable | Hard Disk Capacity Control |
+| 9 | styledemo | High imitation PS black + flat white + light blue style theme |
+| 10 | navbutton | Navigation button control |
+| 11 | videopanel | Video surveillance screen segmentation demo |
+| 12 | framelesswidget | Universal borderless dragging and stretching class |
+| 13 | ipaddress | IP address input control |
+| 14 | bgdemo | Transparent window with borderless background |
+| 15 | dbpage | General database page turning query |
+| 16 | pngtool | PNG image warning removal tool |
+| 17 | savelog | Log redirection output class |
+| 18 | saveruntime | Runtime recording class |
+| 19 | colorwidget | Color Picker |
+| 20 | maskwidget | Mask layer form |
+| 21 | battery | Battery level control |
+| 22 | lineeditnext | Text box enter focus down |
+| 23 | zhtopy | Chinese Characters to Pinyin |
+| 24 | qwtdemo | The source code version of qwt, without plug-ins, directly integrate the source code into your project |
+| 25 | devicebutton | Device button map effect |
+| 26 | mouseline | Mouse positioning crosshair |
+| 27 | emailtool | Email sending tool |
+| 28 | ntpclient | NTP server time synchronization |
+| 29 | lunarcalendarwidget | Lunar calendar widget |
+| 30 | videowidget | General video widget |
+| 31 | screenwidget | Screen capture widget |
+| 32 | imageswitch | Picture switch control |
+| 33 | echartgauge | echart dashboard with interactive support webkit and webengine |
+| 34 | ffmpegdemo | Video stream playback ffmpeg kernel |
+| 35 | vlcdemo | Video streaming player vlc kernel |
+| 36 | key | Secret Key Generator |
+| 37 | live | Program daemon |
+| 38 | designer | QtDesigner4 source code |
+| 39 | netserver | Network transit server |
+| 40 | mpvdemo | Video streaming player mpv kernel |
+| 41 | miniblink | miniblink example |
+| 42 | base64 | Picture text base64 swap |
+| 43 | smoothcurve | Smooth curve |
 
-### 二、学习群
-1. **Qt交流大会群 853086607(雨田哥)**
-2. **Qt技术交流群 46679801(3000人群)**
-3. **Qt进阶之路群 734623697(武威的涛哥)**
+### Two, learning group
+1. **Qt Exchange Conference Group 853086607 (Brother Yutian)**
+2. **Qt Technology Exchange Group 46679801 (3000 people)**
+3. **Qt Advanced Road Group 734623697 (Tao Ge in Wuwei)**
 
-### 三、效果图
+### Three, renderings
 ![avatar](https://github.com/feiyangqingyun/QWidgetDemo/raw/master/0snap/lightbutton.gif)
 ![avatar](https://github.com/feiyangqingyun/QWidgetDemo/raw/master/0snap/movewidget.gif)
 ![avatar](https://github.com/feiyangqingyun/QWidgetDemo/raw/master/0snap/flatui.gif)
